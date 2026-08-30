@@ -8,11 +8,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: "11 0 * * *"
-      timezone: "Asia/Shanghai"
-    - cron: "23 8 * * *"
-      timezone: "Asia/Shanghai"
-    - cron: "49 15 * * *"
+    - cron: "14 11 * * *"
       timezone: "Asia/Shanghai"
 
 concurrency:
